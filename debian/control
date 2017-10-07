@@ -1,0 +1,17 @@
+Source: troglobit-archive-keyring
+Priority: extra
+Section: utils
+Maintainer: Joachim Nilsson <archive@troglobit.com>
+Build-Depends: debhelper (>= 9), gnupg
+Standards-Version: 3.9.5
+
+Package: troglobit-archive-keyring
+Architecture: all
+Depends: gpgv, ${misc:Depends}
+Recommends: gnupg
+Description: GnuPG keys for Troglobit Software repositories and archives
+ This package contains all necessary GnuPG cryptographic keys needed for
+ signing all Troglobit Software archives.
+ .
+ These keys allow ensuring the integrity of the binary packages and
+ sources contained in the APT repositories.

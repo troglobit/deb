@@ -1,0 +1,9 @@
+troglobit-archive-keyring (0.1) unstable; urgency=low
+
+  * Initial upload
+
+ -- Joachim Nilsson <troglobit@gmail.com>  Sat, 07 Oct 2017 11:11:01 +0200
+
+Local variables:
+mode: debian-changelog
+End:

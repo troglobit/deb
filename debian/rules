@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+# export DH_VERBOSE=1
+KEYRING=troglobit-archive-keyring.gpg
+
+%:
+	dh $@
+
+# Import current active keys
+override_dh_auto_build:
+	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active/archive.asc
+
+override_dh_auto_clean:
+	rm -f *.gpg *.gpg~
