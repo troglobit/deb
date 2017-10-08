@@ -1,9 +1,13 @@
+troglobit-archive-keyring (0.2) unstable; urgency=medium
+
+  * New 4096 bit RSA key for signing.
+
+ -- Joachim Nilsson <troglobit@gmail.com>  Sun, 08 Oct 2017 09:41:18 +0200
+
 troglobit-archive-keyring (0.1) unstable; urgency=low
 
   * Initial upload
 
  -- Joachim Nilsson <troglobit@gmail.com>  Sat, 07 Oct 2017 11:11:01 +0200
 
-Local variables:
-mode: debian-changelog
-End:
+
