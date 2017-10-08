@@ -7,7 +7,7 @@ KEYRING=troglobit-archive-keyring.gpg
 
 # Import current active keys
 override_dh_auto_build:
-	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active/archive.asc
+	gpg --homedir $(CURDIR) --no-default-keyring --keyring $(CURDIR)/$(KEYRING) --import active/archive.gpg
 
 override_dh_auto_clean:
 	rm -f *.gpg *.gpg~
